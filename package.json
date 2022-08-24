@@ -1,0 +1,21 @@
+{
+  "name": "zman",
+  "displayName": "zman",
+  "description": "a dark theme only for the stronkest keyboard warriors",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "zman",
+        "uiTheme": "vs-dark",
+        "path": "./themes/zman-color-theme.json"
+      }
+    ]
+  }
+}
